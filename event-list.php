@@ -28,7 +28,7 @@ unset($pdo);
 
 <head>
     <meta charset="UTF-8">
-    <title>Liste des événements</title>
+    <title>FestiPlan</title>
     <link rel="stylesheet" href="css/root.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
