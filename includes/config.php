@@ -1,8 +1,8 @@
 <?php
 // Paramètres de connexion à la base de données
 define('DB_SERVER', 'mysql-tp-git-dev.mysql.database.azure.com');    // Serveur de la base de données
-define('DB_USERNAME', '');                                           // Nom d'utilisateur de la base de données
-define('DB_PASSWORD', '');                                           // Mot de passe de la base de données
+define('DB_USERNAME', 'esgiuser');                                           // Nom d'utilisateur de la base de données
+define('DB_PASSWORD', 'P@ssw0rd123!');                                           // Mot de passe de la base de données
 define('DB_NAME', 'party_planner_db');                               // Nom de la base de données
 
 try {
