@@ -27,13 +27,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     if (empty(trim($_POST["event_date"]))) {
-        $event_date_err = "Veuillez entrer une date pour l'événement.";
+        $event_date_err = "Veuillez entrer une date pour la fête.";
     } else {
         $event_date = trim($_POST["event_date"]);
     }
 
     if (empty(trim($_POST["location"]))) {
-        $location_err = "Veuillez entrer un lieu pour l'événement.";
+        $location_err = "Veuillez entrer un lieu pour la fête.";
     } else {
         $location = trim($_POST["location"]);
     }
@@ -149,7 +149,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
 
             <div class="container_submit_button">
-                <button class="custom_button" type="submit">Créer l'événement</button>
+                <button class="custom_button" type="submit">Créer la fête</button>
             </div>
         </form>
     </div>
