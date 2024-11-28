@@ -73,7 +73,7 @@ if (isset($_GET["id"]) && !empty(trim($_GET["id"]))) {
         <p class="localisation">la fête a lieu à <b><?php echo htmlspecialchars($event["location"]); ?></b>
         le <b><?php echo htmlspecialchars($event["event_date"]); ?></b>.</p>
 
-        <p class="type">Il s'agit d'un fête <b><?php echo $event["is_public"] ? 'Public' : 'Privé'; ?></b> !</p>
+        <p class="type">Il s'agit d'une fête <b><?php echo $event["is_public"] ? 'Public' : 'Privé'; ?></b> !</p>
     </div>
 
     <?php include('includes/footer.php'); ?>
